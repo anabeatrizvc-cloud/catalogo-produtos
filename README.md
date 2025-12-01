@@ -2,6 +2,13 @@
 
 Este é um catálogo de produtos interativo desenvolvido com HTML, CSS, JavaScript e jQuery. Ele carrega dados de um arquivo JSON local via AJAX, permitindo visualização, busca, filtragem e ordenação dinâmica de produtos.
 
+## Equipe
+- Nome: Alessandro Daniel
+- Matrícula: 0184987
+
+- Nome: Ana Beatriz Vasconcelos
+- Matrícula: 01707957
+
 ## Funcionalidades
 - Carregamento de produtos via AJAX (botão "Carregar Produtos").
 - Exibição em cards responsivos.

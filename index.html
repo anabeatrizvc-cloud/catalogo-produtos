@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Produtos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Produtos</h1>
+        <button id="carregar-produtos">Carregar Produtos</button>
+        <div id="loading" style="display: none;">Carregando...</div>
+        <div id="error" style="display: none; color: red;">Erro ao carregar produtos. Verifique o arquivo JSON.</div>
+    </header>
+
+    <section id="filtros">
+        <input type="text" id="busca" placeholder="Buscar por nome...">
+        <select id="filtro-categoria">
+            <option value="">Todas as categorias</option>
+        </select>
+        <select id="ordenacao">
+            <option value="nome-asc">Nome (A-Z)</option>
+            <option value="nome-desc">Nome (Z-A)</option>
+            <option value="preco-asc">Preço (Menor para Maior)</option>
+            <option value="preco-desc">Preço (Maior para Menor)</option>
+        </select>
+    </section>
+
+    <section id="produtos-container">
+        <p id="nenhum-produto" style="display: none;">Nenhum produto encontrado.</p>
+    </section>
+
+    <div id="modal" style="display: none;">
+        <div id="modal-content">
+            <span id="close-modal">&times;</span>
+            <h2 id="modal-nome"></h2>
+            <img id="modal-imagem" src="" alt="">
+            <p><strong>Preço:</strong> R$ <span id="modal-preco"></span></p>
+            <p><strong>Categoria:</strong> <span id="modal-categoria"></span></p>
+            <p id="modal-descricao"></p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/produtos.js"></script>
+</body>
+</html>

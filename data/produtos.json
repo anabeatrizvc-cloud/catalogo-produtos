@@ -1,0 +1,86 @@
+{
+    "mensagem": "Catálogo carregado com sucesso!",
+    "total": 10,
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "Smartphone Galaxy S21",
+            "preco": 2999.99,
+            "categoria": "Eletrônicos",
+            "imagem": "assets/images/smartphone.jpg",
+            "descricao": "Smartphone Android com câmera de alta resolução, tela AMOLED e bateria de longa duração."
+        },
+        {
+            "id": 2,
+            "nome": "Notebook Dell Inspiron",
+            "preco": 4500.00,
+            "categoria": "Eletrônicos",
+            "imagem": "assets/images/notebook.jpg",
+            "descricao": "Notebook leve e potente para trabalho e entretenimento, com processador Intel i5."
+        },
+        {
+            "id": 3,
+            "nome": "Camiseta Básica",
+            "preco": 49.90,
+            "categoria": "Roupas",
+            "imagem": "assets/images/camiseta.jpg",
+            "descricao": "Camiseta de algodão confortável, disponível em várias cores."
+        },
+        {
+            "id": 4,
+            "nome": "Livro de JavaScript",
+            "preco": 89.99,
+            "categoria": "Livros",
+            "imagem": "assets/images/livro.jpg",
+            "descricao": "Guia completo para aprender JavaScript, com exemplos práticos."
+        },
+        {
+            "id": 5,
+            "nome": "Fone de Ouvido Bluetooth",
+            "preco": 199.99,
+            "categoria": "Eletrônicos",
+            "imagem": "assets/images/fone.jpg",
+            "descricao": "Fone sem fio com cancelamento de ruído e bateria de 20 horas."
+        },
+        {
+            "id": 6,
+            "nome": "Apple ipad Air 11",
+            "preco": 7499.00,
+            "categoria": "Eletrônicos",
+            "imagem": "assets/images/tablet.jpg",
+            "descricao": "Tablet Android com tela de 11 polegadas, ideal para trabalho e entretenimento."
+        },
+        {
+            "id": 7,
+            "nome": "Moletom Gola Redonda",
+            "preco": 100.00,
+            "categoria": "Roupas",
+            "imagem": "assets/images/moletom.jpg",
+            "descricao": "Moletom confortável e resistente, perfeito para dias frios."
+        },
+        {
+            "id": 8,
+            "nome": "Livro de HTML e CSS",
+            "preco": 79.99,
+            "categoria": "Livros",
+            "imagem": "assets/images/livro-html.jpg",
+            "descricao": "Livro introdutório para aprender HTML e CSS, com projetos práticos."
+        },
+        {
+            "id": 9,
+            "nome": "Cafeteira Elétrica",
+            "preco": 299.99,
+            "categoria": "Casa",
+            "imagem": "assets/images/cafeteira.jpg",
+            "descricao": "Cafeteira elétrica com timer, para preparar café fresco rapidamente."
+        },
+        {
+            "id": 10,
+            "nome": "Bola de Futebol Adidas Fifa World Cup 2022",
+            "preco": 180.00,
+            "categoria": "Esportes",
+            "imagem": "assets/images/bola.jpg",
+            "descricao": "Bola de futebol oficial, resistente e ideal para jogos ao ar livre."
+        }
+    ]
+}

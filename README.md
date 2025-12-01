@@ -6,6 +6,7 @@ Este é um catálogo de produtos interativo desenvolvido com HTML, CSS, JavaScri
 - Nome: Alessandro Daniel
 
   Matrícula: 0184987
+  
 
 - Nome: Ana Beatriz Vasconcelos
 

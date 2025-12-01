@@ -4,10 +4,10 @@ Este é um catálogo de produtos interativo desenvolvido com HTML, CSS, JavaScri
 
 ## Equipe
 - Nome: Alessandro Daniel
-- Matrícula: 0184987
+  Matrícula: 0184987
 
 - Nome: Ana Beatriz Vasconcelos
-- Matrícula: 01707957
+  Matrícula: 01707957
 
 ## Funcionalidades
 - Carregamento de produtos via AJAX (botão "Carregar Produtos").
